@@ -1,10 +1,12 @@
 import React from 'react';
 import  Header  from './components/Header';
 import Balance from './components/Balance';
-import incomeExpenses from './components/incomeExpenses';
-
+import IncomeExpenses from './components/incomeExpenses';
+import TransactionList from './components/TransactionList';
+import AddTransaction from './components/AddTransaction';
 
 import './App.css';
+
 
 function App() {
   return (
@@ -12,7 +14,9 @@ function App() {
       <Header></Header>
       <div className="container">
         <Balance/>
-        <incomeExpenses/>
+        <IncomeExpenses/>
+        <TransactionList/>
+        <AddTransaction/>
       </div>
     </div>
   );
