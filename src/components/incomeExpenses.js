@@ -28,6 +28,8 @@ const IncomeExpenses = () => {
         </div>
       </div>
   )
-};
+}
 
-export {IncomeExpenses }
+export  {
+  IncomeExpenses
+};
